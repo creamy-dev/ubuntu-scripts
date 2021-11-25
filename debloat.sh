@@ -17,3 +17,5 @@ sudo apt purge thunderbird -y
 sudo apt purge seahorse -y
 sudo apt purge remmina -y
 sudo apt-mark hold snap snapd
+echo '[x] Installing some important packages that somehow got removed...'
+sudo apt install firefox -y
