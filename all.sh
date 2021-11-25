@@ -6,7 +6,7 @@ curl "https://raw.githubusercontent.com/creamy-dev/ubuntu-scripts/main/basicpeop
 chmod +x /tmp/basicpeople.sh
 curl "https://raw.githubusercontent.com/creamy-dev/ubuntu-scripts/main/steam.sh" > /tmp/steam.sh
 chmod +x /tmp/steam.sh
-curl "https://github.com/creamy-dev/ubuntu-scripts/blob/main/bedrockify.sh" > /tmp/bedrockify.sh
+curl "https://raw.githubusercontent.com/creamy-dev/ubuntu-scripts/main/bedrockify.sh" > /tmp/bedrockify.sh
 chmod +x /tmp/bedrockify.sh
 bash /tmp/debloat.sh
 bash /tmp/basicpeople.sh
