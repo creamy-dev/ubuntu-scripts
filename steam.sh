@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo apt install steam-installer -y
+sudo apt install steam-installer 
 steam
 echo "Installed Steam!"
