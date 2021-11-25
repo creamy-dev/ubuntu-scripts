@@ -12,3 +12,4 @@ bash /tmp/debloat.sh
 bash /tmp/basicpeople.sh
 bash /tmp/steam.sh
 bash /tmp/bedrockify.sh
+sudo reboot
