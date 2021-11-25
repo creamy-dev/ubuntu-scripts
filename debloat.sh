@@ -2,10 +2,10 @@
 echo '[x] Updating system...'
 sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
 echo '[x] Removing not needed snap applications'
-sudo snap remove snap-store -y
-sudo snap remove gtk-common-themes -y
-sudo snap remove gnome-3-34-1804 -y
-sudo snap remove core18 -y
+sudo snap remove snap-store 
+sudo snap remove gtk-common-themes 
+sudo snap remove gnome-3-34-1804 
+sudo snap remove core18 
 echo '[x] Removing not needed apt applications.'
 sudo apt purge snapd -y
 sudo apt purge gnome-sudoku -y
