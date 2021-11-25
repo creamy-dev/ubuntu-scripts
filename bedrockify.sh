@@ -8,4 +8,4 @@ curl -s https://api.github.com/repos/bedrocklinux/bedrocklinux-userland/releases
 | wget -qi -
 mv bedrock* /tmp/bedrock.sh
 chmod +x /tmp/bedrock.sh
-yes "Not reversible!" | sudo bash /tmp/bedrock.sh
+yes "Not reversible!" | sudo bash /tmp/bedrock.sh --hijack
